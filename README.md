@@ -57,3 +57,10 @@ dotnet build /property:GenerateFullPaths=true /consoleloggerparameters:NoSummary
 ```
 
 Once built, it creates a .dll file with additional files at `bin\Release\net6.0` or `bin\Debug\net6.0` paths. You can follow the How to install section to install your newly built plugin in Jellyfin.
+
+
+### Huge Thanks to the Following References
+
+I wrote it by referring to the following: 
+* The core TheHandy integration code: [BukkakeMoe/Bukkake.moe: Codebase for bukkake.moe | FunScript Video Host. (github.com)](https://github.com/BukkakeMoe/Bukkake.moe) 
+* The web connections and playback hooks part: [jellyfin/jellyfin-plugin-webhook (github.com)](https://github.com/jellyfin/jellyfin-plugin-webhook)
